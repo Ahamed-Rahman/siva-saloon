@@ -1,0 +1,101 @@
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  padding: 80px 20px;
+  color: white;
+  width: 100vw;
+  height: 75vh;
+}
+
+.signup-video-container {
+  width: 496px;
+  height: 594px;
+  overflow: hidden;
+  border-radius: 10px 0 0 8px;
+    border: 0.5px solid #c68a2c;
+  margin-top: 85px;
+}
+
+.signup-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px 0 0 8px;
+  margin-left: 2px;
+}
+
+
+.signup-image img {
+  width: 396px;
+  border-radius: 10px 0 0 8px;
+ border: 1px solid white;
+    margin-top:91px
+}
+
+.signup-form-box {
+  background-color: #111;
+  padding: 49px;
+  border-radius: 0 10px 10px 0;
+  border: 0.5px solid #c68a2c;
+  max-width: 400px;
+  width: 100%;
+  height:494.5px;
+  margin-top:85px
+}
+
+.signup-form-box h2 {
+  text-align: center;
+  margin-bottom: 20px;
+    font-family: 'Sorts Mill Goudy', serif;
+}
+
+.signup-form-box input {
+  width: 90%;
+  padding: 15px;
+  margin: 13px 0;
+  border-radius: 8px;
+  border: none;
+  background:  #111;
+  color: white;
+    border: 0.5px solid #c68a2c;
+    margin-left: 10px;
+      font-family: 'Sorts Mill Goudy', serif;
+       outline: none; /* ✅ removes default blue outline */
+}
+
+/* On focus - ash border */
+.signup-form-box input:focus {
+  border: 1px solid #b2b2b2; /* light ash */
+background-color: #111 !important;
+}
+
+/* Prevent autofill from changing background */
+.signup-form-box input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 30px #111 inset !important;
+  -webkit-text-fill-color: white !important;
+  transition: background-color 9999s ease-in-out 0s;
+}
+
+.signup-form-box button {
+  width: 98%;
+  padding: 15px;
+  background-color: #c68a2c;
+    font-family: 'Sorts Mill Goudy', serif;
+  color: white;
+  font-weight: bold;
+  border: none;
+  margin-top: 10px;
+  border-radius: 5px;
+   margin-left: 10px;
+  cursor: pointer;
+  font-size: 0.9rem;
+
+}
+
+.signup-form-box p {
+  text-align: center;
+  margin-top: 10px;
+   font-family: 'Sorts Mill Goudy', serif;
+}

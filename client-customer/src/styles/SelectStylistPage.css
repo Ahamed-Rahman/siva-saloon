@@ -1,0 +1,53 @@
+.select-stylist-page {
+  background: black;
+  color: white;
+  padding: 80px 40px;
+  text-align: center;
+   width: 94vw;
+  height: 78vh;
+}
+.select-stylist-page h2 {
+ 
+  font-size: 1.9rem;
+   font-family: 'Sorts Mill Goudy', serif;
+}
+
+.stylist-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.stylist-card {
+  background-color: #111;
+  border: 1px solid #c68a2c;
+  border-radius: 12px;
+  padding: 20px;
+  width: 300px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.stylist-card:hover {
+  transform: scale(1.05);
+}
+
+.stylist-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.stylist-card h3 {
+  margin-top: 1rem;
+  font-size: 1.4rem;
+   font-family: 'Sorts Mill Goudy', serif;
+}
+
+.stylist-card p {
+ 
+  font-family: 'Sorts Mill Goudy', serif;
+}

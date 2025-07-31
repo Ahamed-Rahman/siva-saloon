@@ -1,0 +1,53 @@
+.stylist-login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.login-box {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  padding: 50px;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.login-box h2 {
+  margin-bottom: 20px;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(0, 0, 0);
+  color: black;
+  font-size: 14px;
+}
+
+.login-box input::placeholder {
+  color: #555;
+}
+
+.login-box button {
+  width: 120px;
+  padding: 12px;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.login-box button:hover {
+  background-color: #f1f1f1;
+}
