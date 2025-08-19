@@ -1,0 +1,120 @@
+/* Container */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  padding: 80px 20px;
+  color: white;
+  width: 100vw;
+  height: 75vh;
+}
+
+/* Left side image */
+.login-image img {
+  width: 369px;
+  border-radius: 10px 0 0 8px;
+  border: 0.5px solid #c68a2c;
+  margin-top:91px
+}
+
+/* Right side form box */
+.login-form-box {
+  background-color: #111;
+  padding: 49px;
+  border-radius: 0 10px 10px 0;
+  border: 0.5px solid #c68a2c;
+  max-width: 400px;
+  width: 100%;
+  height:454.5px;
+  margin-top:85px
+}
+
+/* Form Heading */
+.login-form-box h2 {
+text-align: center;
+  margin-bottom: -20px;
+    font-family: 'Sorts Mill Goudy', serif;
+   
+  
+}
+
+.login-video-container {
+  width: 459px;
+  height: 554px;
+  overflow: hidden;
+  border-radius: 10px 0 0 8px;
+  border: 0.5px solid #c68a2c;
+  margin-top: 85px;
+}
+
+.login-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px 0 0 8px;
+}
+
+/* Prevent autofill from changing background */
+.login-form-box input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 30px #111 inset !important;
+  -webkit-text-fill-color: white !important;
+  transition: background-color 9999s ease-in-out 0s;
+}
+
+
+/* Form Inputs */
+.login-form-box input {
+width: 90%;
+  padding: 15px;
+    margin: 8px 0; /* Reduce vertical spacing */
+  border-radius: 8px;
+  border: none;
+  background:  #111;;
+  color: white;
+    border: 0.5px solid #c68a2c;
+    margin-left: 10px;
+      font-family: 'Sorts Mill Goudy', serif;
+   
+}
+
+
+
+.login-input-form{
+     margin-top:70px
+}
+/* Submit Button */
+.login-form-box button {
+   width: 98%;
+  padding: 15px;
+  background-color: #c68a2c;
+  color: white;
+  font-weight: bold;
+  border: none;
+  margin-top: 10px;
+  border-radius: 5px;
+   margin-left: 10px;
+     font-family: 'Sorts Mill Goudy', serif;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.login-form-box button:hover {
+  background-color: #e0a13a;
+}
+
+/* Signup Text */
+.login-form-box p {
+  text-align: center;
+  margin-top: 10px;
+    font-family: 'Sorts Mill Goudy', serif;
+}
+
+.login-form-box a {
+  color: #72b8ff;
+  text-decoration: none;
+}
+
+.login-form-box a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,113 @@
+.contact-section {
+  background-color: #000000;
+  padding: 120px 60px;
+  font-family: 'Kanit', sans-serif;
+  width: 1400px;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.contact-info {
+  flex: 1;
+  max-width: 45%;
+  font-family: 'Sorts Mill Goudy', serif;
+}
+
+.contact-info h4 {
+  color: #767575;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-size: 23px;
+}
+
+.contact-info h2 {
+  font-size: 36px;
+  margin: 10px 0 10px;
+  font-family: 'Sorts Mill Goudy', serif;
+   color: #755d3d;
+}
+
+.contact-info p {
+  margin-bottom: 20px;
+  color: #767575;
+  line-height: 1.;
+  font-family: 'Sorts Mill Goudy', serif;
+}
+
+.info-block h5 {
+  margin-bottom: 4px;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: 'Sorts Mill Goudy', serif;
+  color: #81653e;
+}
+
+.info-block p {
+  margin-bottom: 20px;
+  font-family: 'Sorts Mill Goudy', serif;
+  color: #767575;
+}
+
+.contact-form {
+  flex: 1;
+  max-width: 45%;
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 40px;
+  color: white;
+  border-radius: 5px;
+  height: 400px;
+}
+
+.contact-form h3 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 25px;
+  font-family: 'Sorts Mill Goudy', serif;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-row {
+  display: flex;
+  gap: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  flex: 1;
+  padding: 12px;
+  font-size: 15px;
+  border: none;
+  font-family: 'Sorts Mill Goudy', serif;
+  outline: none;
+  background-color: white;
+  color: #000;
+  border-radius: 3px;
+}
+
+.contact-form button {
+  background-color: #a77a4c;
+  color: white;
+  padding: 12px;
+  font: weight 800;
+  border: none;
+  cursor: pointer;
+  letter-spacing: 1px;
+  transition: background-color 0.3s ease;
+  font-family: 'Sorts Mill Goudy', serif;
+}
+
+.contact-form button:hover {
+  background-color: #855f35;
+}
